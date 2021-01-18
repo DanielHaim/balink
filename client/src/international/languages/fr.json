@@ -1,0 +1,19 @@
+{
+    "step1": "Bénéficiaire",
+    "step2": "Pays et devise",
+    "step3": "Details bancaire",
+    "tab1": "Personnelle",
+    "tab2": "Affaires",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phoneNumber": "Numéro de téléphonne",
+    "country": "Pays",
+    "city": "Ville",
+    "street": "Addresse",
+    "title": "Sujet",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "selectCountryPlaceHolder": "Veuillez sélectioner un pays",
+    "subscribeNews": "Souhaitez-vous vous abonner à la newsletter ?"
+}

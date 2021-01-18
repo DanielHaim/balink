@@ -1,0 +1,19 @@
+{
+    "step1": "Beneficary",
+    "step2": "Country and currency",
+    "step3": "Bank details",
+    "tab1": "Personal",
+    "tab2": "Business",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "country": "Country",
+    "city": "City",
+    "street": "Street",
+    "title": "Title",
+    "next": "Next",
+    "previous": "Previous",
+    "selectCountryPlaceHolder": "Please select an country",
+    "subscribeNews": "Would you like to subscribe to the newsletter?"
+}

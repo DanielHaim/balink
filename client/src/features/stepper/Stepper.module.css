@@ -1,0 +1,54 @@
+.step_container {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.step {
+    font-size: 1.5rem;
+    background-color: darkgray;
+    min-height: 40px;
+    min-width: 40px;
+    max-height: 40px;
+    max-width: 40px;
+    border-radius: 40px;
+    line-height: 35px;
+    color: white;
+    margin: 10px;
+}
+
+.currentStep {
+    background-color: #4a148c;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+}
+
+.separator_hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid darkgray;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}
+
+.stepper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    max-width: 600px;
+    padding-top: 40px;
+}
