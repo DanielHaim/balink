@@ -4,7 +4,8 @@
   "scripts": {
     "client": "cd ./client && npm run start",
     "server": "nodemon server.js",
-    "start": "concurrently --kill-others \"npm run server\" \"npm run client\""
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\"",
+    "install": "cd ./client && npm install"
   },
   "dependencies": {
     "basic-auth": "^2.0.1",
