@@ -25,8 +25,8 @@ export function SelectField ({id, name, required, placeholder, formType, options
     return (
         <div 
             className={styles.container}
-            onClick={() => dispatch(inputUpdated({id, formType, focused: true}))}
-            onBlur={() => dispatch(inputUpdated({id, formType, blured: true}))}
+            onClick={() => !input.focused && dispatch(inputUpdated({id, formType, focused: true}))}
+            onBlur={() =>  !input.blured  && dispatch(inputUpdated({id, formType, blured: true}))}
         >
             <select 
                 id={id}
